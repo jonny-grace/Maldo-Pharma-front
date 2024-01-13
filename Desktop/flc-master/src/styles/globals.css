@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "gothamBold";
+  src: url("../../public/gotham-bold.otf") format("opentype");
+  /* You can also define font-weight and font-style if applicable */
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("../../public/Gotham-book.otf") format("opentype");
+  /* You can also define font-weight and font-style if applicable */
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("../../public/Gotham-medium.otf") format("opentype"); /* You can also define font-weight and font-style if applicable */
+}
+
+
+.nav-button {
+  /* color: #FFF; */
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.react-tabs__tab--selected {
+  background-color: #e6e6e6;
+  color: gray;
+  border: none;
+}
+.active {
+  text-decoration: underline;
+}
+
+.inter{
+  font-family: Inter;
+}
+.slider-caption {
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+  max-width: 30rem;
+}
