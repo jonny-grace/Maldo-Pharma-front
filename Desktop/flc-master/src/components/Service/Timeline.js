@@ -11,7 +11,7 @@ const Timeline = () => {
                 <div className="summary">
                   <div className="year font-gothamBold ">2009 Inception Marketing</div>
                   <div className="description font-gothamBook ">
-                    Our journey Begun in 2009 and we've been crafting unique expreinces for our clients.
+                    Our journey Begun in 2009 and we&lsquo;ve been crafting unique expreinces for our clients.
                   </div>
                 </div>
               </span>

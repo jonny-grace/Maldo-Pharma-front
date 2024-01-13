@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["cyrillic"], weight: ["400"] });
+
 import ReactMarkdown from 'react-markdown';
 const Service = ({ serviceSection, services }) => {
   function getColorByIndex(index) {

@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import "react-tabs/style/react-tabs.css";
-import { Inter } from "next/font/google";
 
 import IntegratedTabContent from "./IntegratedTabContent";
 
@@ -8,10 +7,7 @@ import rightArrow from '../../public/assets/rightArrow.png';
 import leftArrow from '../../public/assets/leftArrow.png';
 import Image from "next/image";
 
-const inter = Inter({
-  subsets: ["cyrillic"],
-  weight: ["400"],
-});
+
 const GaleryTab = ({ products }) => {
   let Integrated=[]
   let FMCG=[]

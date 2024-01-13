@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import { Inter } from "next/font/google";
-const inter = Inter({
-  subsets: ["cyrillic"],
-  weight: ["400"],
-});
+
 
 
 const CustomeTabs2 = ({tabs,setTab}) => {
